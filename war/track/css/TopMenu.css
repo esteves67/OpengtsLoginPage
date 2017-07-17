@@ -1,0 +1,88 @@
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+	  
+
+      #map {
+        height: 100%;
+		width:auto;
+		margin-left:250px;
+      }
+	  .navbar {
+    border-radius: 0px;
+	margin-bottom: 0px;
+	background:#fff;
+}
+
+.nav-left{
+	background:#fff;
+	height:100%;
+	width:300px;
+	border-right:solid 1px #ccc;
+	float:left;
+overflow:auto;
+	
+}
+
+
+a:hover{
+	text-decoration:none;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+
+
+.footnav{
+	background:#fff;
+	height:auto;
+	width:100%;
+	border:solid 1px #ccc;
+	padding:10px;
+	text-align:center;
+}
+.nav-left1{
+	display:none;	
+}
+
+@media (max-width: 767px){
+
+#map{
+	height:400px;
+	width:auto;
+	margin-left:0px;	
+}
+
+.nav-left{
+	display:none;	
+}
+
+.nav-left1{
+	display:block;
+	height:450px;
+	width:auto;
+	overflow:auto;
+		
+}
+
+}
+
+@media screen and (max-width: 991px){
+#map{
+	height:450;
+	width:auto;
+	margin-left:0px;	
+}
+
+}
+
+
+.del{
+float: right; margin-right:-5px;  font-size: 16px;font-weight: 700;line-height: 1;color: #F00;text-shadow: 0 1px 0 #fff;filter: alpha(opacity=20);	
+}
+
